@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <link rel="stylesheet" href="/stylesheet/app.css">
+        	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+	<meta name="viewport" content="width=500, initial-scale=1">
+        <title>Rivi Assignment</title>
+        <link rel="icon" type="Icon (.ico)" href="https://www.clipartmax.com/png/middle/34-347626_animal-face-logo-raccoon-vicious-wild-logo-raccoon-clipart.png">
+    </head>
+    <body>
+        <div class="ui fixed inverted menu ">
+            <div class="ui container">
+                <a href="/" >
+                    <div class="header huge huge item" style="display:inline-block">
+                        <i class="brown file alternate outline icon" style="float:left"></i><h3>Rivi Assignment</h3>
+                    </div> 
+                </a>
+            </div>
+        </div>
+
+    <!--The main form -->
+    <div class="ui main text container segment" style='margin-top:7em'>
+        <div class="ui huge header">New Booking</div>
+        <form class="ui form" method="POST" action="/search">
+        <div class="field">
+            <label>From</label>
+            <input type="text" placeholder="Starting Point" name="start">
+        </div>
+        <div class="field">
+                <label>To</label>
+                <input type="text" placeholder="Destination" name="end">
+        </div>
+        <div class="field">
+            <label>Date</label>
+            <input type="date" placeholder="Title" name="currentDate">
+        </div>
+        <div class="ui inverted sement">
+            <button class="ui inverted primary button">Submit</button>
+        </div>
+        </form>
+    </div>
